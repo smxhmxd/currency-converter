@@ -71,7 +71,7 @@ function App() {
                             amountDisable
                         />
                     </div>
-                    <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
+                    <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 mb-4 rounded-lg">
                         Convert {from.toUpperCase()} to {to.toUpperCase()}
                     </button>
               <button className="w-full bg-black text-white px-4 py-3 rounded-lg"><a
