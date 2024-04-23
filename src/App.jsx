@@ -74,12 +74,13 @@ function App() {
                     <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 mb-4 rounded-lg">
                         Convert {from.toUpperCase()} to {to.toUpperCase()}
                     </button>
-              <button className="w-full bg-black text-white px-4 py-3 rounded-lg"><a
-               href="https://github.com/smxhmxd/currency-converter"
-               target="_blank"
-               rel="noopener noreferrer">
+<button
+  onClick={() => window.open("https://github.com/smxhmxd/currency-converter", "_blank")}
+  className="w-full bg-black text-white px-4 py-3 rounded-lg"
+>
   Github
-</a></button>
+</button>
+
                 </form>
             </div>
         </div>
